@@ -9,23 +9,23 @@ services:
     healthCheckPath: /
     envVars:
       - key: DB_TYPE
-        # value: sqlite3
+        value: postgres
         sync: false
       - key: DB_HOST
-        # value: db_host
+        value: db.bit.io
         sync: false
       - key: DB_PORT
-        # value: 3306
+        value: 5432
         sync: false
       - key: DB_USER
-        # value: db_user
+        value: jinenge
         sync: false
       - key: DB_PASS
-        # value: db_password
+        value: v2_43pUm_UPAwLBXRmX523PhxCfWPKgZ
         sync: false
       - key: DB_NAME
-        # value: db_name
+        value: jinenge/jinenyy
         sync: false
       - key: DB_TABLE_PREFIX
-        # value: alist_
+        value: alist_
         sync: false
